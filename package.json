@@ -1,0 +1,29 @@
+{
+  "name": "egaroshi-price-scraper-fix",
+  "version": "1.0.0",
+  "description": "Fix product price scraping issues on Egaroshi platform using Decodo API",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "price-scraper",
+    "decodo-api",
+    "ecommerce",
+    "amazon",
+    "walmart"
+  ],
+  "author": "devancormick",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
